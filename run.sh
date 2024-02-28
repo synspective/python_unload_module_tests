@@ -20,4 +20,6 @@ case "$1" in
     "importlib_import_test_del")
         poetry run pytest python_import_as_tests/tests/importlib_import_test_del.py
         ;;
+    "pytest_forked")
+        poetry run pytest python_import_as_tests/tests/pytest_forked.py
 esac
